@@ -1,0 +1,88 @@
+body {
+  background-color: #f2f6ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  min-height: 10vh;
+  max-width: 500px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 500px;
+  padding: 10px;
+  border: 2px solid #11475b;
+}
+
+.app-text {
+  font-size: 24px !important;
+  text-align: center;
+  border-bottom: 2px solid #11475b;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  color: #11475b;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item select {
+  padding: 2px 5px;
+}
+
+.item button {
+  margin: 0 5px;
+}
+
+.backdrop {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.75);
+}
+
+.modal {
+  position: relative;
+}
+
+.modal-inner {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 500px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 4px;
+  text-align: center;
+  transform: translate(-50%,-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-inner span {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+
+.content ul li {
+  color: #4e4848;
+}
+
+.item button {
+  margin: 0 5px;
+  background: none;
+  border: 1px solid #11475b;
+  padding: 4px 12px;
+  background-color: #5e7983;
+  color: #fff;
+  border-radius: 4px;
+}
